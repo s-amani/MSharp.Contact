@@ -1,3 +1,4 @@
+using Contact;
 using MSharp;
 using Domain;
 
@@ -7,7 +8,7 @@ namespace Modules
     {
         public MainMenu()
         {
-            SubItemBehaviour(MenuSubItemBehaviour.ExpandCollapse);
+            //SubItemBehaviour(MenuSubItemBehaviour.ExpandCollapse);
             AjaxRedirect().WrapInForm(false);
             Using("Olive.Security");
             IsViewComponent().UlCssClass("nav flex-column");

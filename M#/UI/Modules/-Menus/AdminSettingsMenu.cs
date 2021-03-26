@@ -1,3 +1,4 @@
+using Contact;
 using MSharp;
 using Domain;
 
@@ -24,6 +25,10 @@ namespace Modules
 
             Item("Content blocks")
                 .OnClick(x => x.Go<Admin.Settings.ContentBlocksPage>());
+
+            Item("Contacts")
+                .Icon("FA.cog")
+                .OnClick(x => x.Go<ContactPage>());
         }
     }
 }

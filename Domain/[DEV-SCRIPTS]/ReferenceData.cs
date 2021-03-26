@@ -23,6 +23,31 @@ namespace Domain
 
             await CreateContentBlocks();
             await CreateAdmin();
+            await CreateCategories();
+        }
+
+        async Task CreateCategories()
+        {
+            await Create(new Category
+            {
+                Name = "Family",
+                Description = "Family group"
+            });
+            await Create(new Category
+            {
+                Name = "Friends",
+                Description = "Friends group"
+            });
+            await Create(new Category
+            {
+                Name = "Business",
+                Description = "Friends group"
+            });
+            await Create(new Category
+            {
+                Name = "Other",
+                Description = "Other group"
+            });
         }
 
         async Task CreateContentBlocks()

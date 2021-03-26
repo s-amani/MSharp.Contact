@@ -18,6 +18,7 @@
     <PackageReference Include="Olive.Entities.Data" Version="2.1.166" />
     <PackageReference Include="Olive.Entities.Data.SqlServer" Version="2.1.113" />
     <PackageReference Include="Olive.Integration" Version="1.0.7" />
+    <PackageReference Include="Olive.Mvc" Version="3.1.121" />
     <PackageReference Include="Olive.Mvc.Security" Version="3.1.106" />
     <PackageReference Include="Olive.Security.Impersonation" Version="3.1.104" />
     <PackageReference Include="Olive.Web" Version="3.1.106" />
